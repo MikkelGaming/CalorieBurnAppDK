@@ -12,8 +12,7 @@
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mikkelgaming.calorieburningcalculator.CalculatorController">
    <center>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER_LEFT">
-         <children>
-            <Label text="Vælg aktivitet">
+          <Label text="Vælg aktivitet">
                <font>
                   <Font name="System Bold Italic" size="18.0" />
                </font>
@@ -48,7 +47,7 @@
                   <Insets bottom="8.0" />
                </VBox.margin>
             </TextField>
-            <Button fx:id="calculateButton" alignment="CENTER" mnemonicParsing="false" onMouseReleased="#calculate" prefHeight="41.0" prefWidth="218.0" text="Beregn">
+            <Button alignment="CENTER" mnemonicParsing="false" onMouseReleased="#calculate" prefHeight="41.0" prefWidth="218.0" text="Beregn">
                <font>
                   <Font size="14.0" />
                </font>
@@ -64,7 +63,6 @@
                   <Insets bottom="4.0" top="4.0" />
                </VBox.margin>
             </Label>
-         </children>
          <padding>
             <Insets bottom="42.0" left="42.0" right="42.0" top="42.0" />
          </padding>
